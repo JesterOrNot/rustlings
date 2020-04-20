@@ -1,0 +1,6 @@
+tasks:
+  - init: cargo install --path .
+    command: |
+      open exercises/variables/variables1.rs
+      rustlings watch
+    name: Rustlings
